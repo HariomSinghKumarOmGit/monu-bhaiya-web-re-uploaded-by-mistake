@@ -33,27 +33,14 @@ const MediaCarousel = () => {
     const currentItem = mediaItems[currentIndex]
     
     // For images, advance after 4s
-    if (currentItem.type === 'image') {
-      const timer = setTimeout(() => {
-        advanceToNext()
-      }, 4000)
-      return () => clearTimeout(timer)
-    }
-
-    // For YouTube videos, we listen for the 'ended' state through the API
-    const handleMessage = (event) => {
-      try {
-        const data = JSON.parse(event.data)
-        if (data.event === 'onStateChange' && data.info === 0) { // 0 is Ended
-          advanceToNext()
-        }
-      } catch (e) {
-        // Not a YouTube API message
-      }
-    }
-
-    window.addEventListener('message', handleMessage)
-    return () => window.removeEventListener('message', handleMessage)
+    // For the video, advance after 2 minutes and 5 seconds (125,000ms)
+    const delay = currentItem.type === 'image' ? 4000 : 125000;
+    
+    const timer = setTimeout(() => {
+      advanceToNext()
+    }, delay)
+    
+    return () => clearTimeout(timer)
   }, [currentIndex])
 
   const currentItem = mediaItems[currentIndex]
