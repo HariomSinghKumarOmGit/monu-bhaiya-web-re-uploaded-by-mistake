@@ -3,15 +3,15 @@ import React from 'react'
 const AboutSection = () => {
   const owners = [
     {
-      name: "Monu Bhaiya",
+      name: "Prabhat kr Jha",
       role: "Founder & Visionary",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
+      image: "https://i.im.ge/2026/01/03/B4oJTz.image.png",
       description: "With over two decades of transformative leadership in real estate, Monu Bhaiya has redefined premium living. His unwavering integrity and foresight have built not just homes, but thriving communities that stand as testaments to trust and excellence."
     },
     {
       name: "Rajesh Kumar",
       role: "Director of Architecture",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
+      image: "https://andsimple.co/wp-content/uploads/2025/09/mukesh-ambani-family-offices-feature-3.png",
       description: "A master of spatial dynamics and sustainable design, Rajesh ensures that every Vastu Realty project is a harmonious blend of modern aesthetics and traditional Vastu principles, creating spaces that truly breathe."
     },
     {
