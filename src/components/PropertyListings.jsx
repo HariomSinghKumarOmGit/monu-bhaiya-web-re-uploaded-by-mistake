@@ -40,10 +40,10 @@ const PropertyListings = () => {
     <section className="py-16 px-5 bg-slate-50">
       {/* Section Header */}
       <div className="flex items-center justify-between mb-8">
-        <h2 className="text-4xl font-black text-[#0A1128]">Buy</h2>
-        <button className="px-6 py-2.5 bg-white border border-slate-200 text-[#0A1128] rounded-lg font-bold text-sm hover:bg-slate-50 transition-all shadow-sm">
+        <h2 className="text-4xl font-black text-[#0A1128]">Buy / Rent</h2>
+        <Link to="/buy-rent/list" className="px-6 py-2.5 bg-white border border-slate-200 text-[#0A1128] rounded-lg font-bold text-sm hover:bg-slate-50 transition-all shadow-sm">
           Show All →
-        </button>
+        </Link>
       </div>
 
       {/* Property Carousel */}

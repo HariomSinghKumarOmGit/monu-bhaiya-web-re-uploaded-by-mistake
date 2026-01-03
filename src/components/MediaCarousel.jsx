@@ -7,7 +7,7 @@ const MediaCarousel = () => {
 
   // Media playlist: video first, then images
   const mediaItems = [
-    { type: 'video', src: '/heroSecLoop.mov' },
+    { type: 'video', src: 'xmGNrMZyhdE' },
     { type: 'image', src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80', alt: 'Luxury Modern Villa' },
     { type: 'image', src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80', alt: 'Premium Penthouse Interior' },
     { type: 'image', src: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80', alt: 'Contemporary Beach House' },
@@ -28,50 +28,69 @@ const MediaCarousel = () => {
     }, 500)
   }
 
-  // Auto-advance images every 4 seconds
+  // Auto-advance items
   useEffect(() => {
     const currentItem = mediaItems[currentIndex]
     
+    // For images, advance after 4s
     if (currentItem.type === 'image') {
       const timer = setTimeout(() => {
         advanceToNext()
       }, 4000)
-      
       return () => clearTimeout(timer)
     }
+
+    // For YouTube videos, we listen for the 'ended' state through the API
+    const handleMessage = (event) => {
+      try {
+        const data = JSON.parse(event.data)
+        if (data.event === 'onStateChange' && data.info === 0) { // 0 is Ended
+          advanceToNext()
+        }
+      } catch (e) {
+        // Not a YouTube API message
+      }
+    }
+
+    window.addEventListener('message', handleMessage)
+    return () => window.removeEventListener('message', handleMessage)
   }, [currentIndex])
 
   const currentItem = mediaItems[currentIndex]
 
   return (
-    <div className="w-full px-5 mt-12">
-      <div className="relative rounded-[40px] overflow-hidden shadow-2xl shadow-blue-900/20 bg-slate-900 aspect-21/9">
+    <div className="w-full px-5 relative  z-0">
+      <div className="relative rounded-[40px] overflow-hidden shadow-2xl shadow-blue-900/20  bg-white aspect-21/9 md:aspect-28/9 lg:aspect-32/9">
         {/* Transition Overlay */}
         <div 
-          className={`absolute inset-0 bg-black z-10 transition-opacity duration-500 ${
+          className={`absolute inset-0 bg-black z-30 transition-opacity duration-500 ${
             isTransitioning ? 'opacity-100' : 'opacity-0 pointer-events-none'
           }`}
         />
 
-        {/* Video */}
+        {/* YouTube Video with Edge-to-Edge Coverage (Simulating object-fit: cover) */}
         {currentItem.type === 'video' && (
-          <video
-            ref={videoRef}
-            src={currentItem.src}
-            autoPlay
-            muted
-            playsInline
-            onEnded={handleVideoEnd}
-            className="w-full h-full object-cover"
-          />
+          <div className="absolute inset-0 w-full h-full pointer-events-none overflow-hidden">
+            <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
+              <iframe
+                className="w-[200vmax] h-[200vmax] min-w-full min-h-full max-w-none scale-150"
+                src={`https://www.youtube.com/embed/${currentItem.src}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1&disablekb=1&fs=0`}
+                title="Vastu Realty Featured"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
+            {/* Dark overlay for better text readability and premium feel */}
+            <div className="absolute inset-0 bg-linear-to-t from-slate-900/40 via-transparent to-slate-900/20" />
+          </div>
         )}
 
-        {/* Image */}
+        {/* Image - Forced absolute inset for edge-to-edge */}
         {currentItem.type === 'image' && (
           <img
             src={currentItem.src}
             alt={currentItem.alt}
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
           />
         )}
 

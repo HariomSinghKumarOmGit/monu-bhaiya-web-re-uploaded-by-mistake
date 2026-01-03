@@ -2,7 +2,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import MediaCarousel from './components/MediaCarousel'
 import PropertyListings from './components/PropertyListings'
+import ConstructionListings from './components/ConstructionListings'
+import MenPowerListings from './components/MenPowerListings'
+import AboutSection from './components/AboutSection'
+import Footer from './components/Footer'
 import PropertyDetail from './pages/PropertyDetail'
+import PropertyList from './pages/PropertyList'
+import ConstructionDetail from './pages/ConstructionDetail'
+import ConstructionList from './pages/ConstructionList'
+import MenPowerDetail from './pages/MenPowerDetail'
+import MenPowerList from './pages/MenPowerList'
+import ScrollToTop from './components/ScrollToTop'
 import './App.css'
 
 // Home Page Component
@@ -11,37 +21,41 @@ function HomePage() {
     <div className="min-h-screen bg-slate-50 selection:bg-blue-100 selection:text-blue-900">
       <Header />
       
-      <main className="pt-32">
-        <section className="relative px-6 overflow-hidden">
+      <main className="pt-24 md:pt-32">
+        <section className="relative overflow-hidden mb-16">
           {/* Decorative Background Blur */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-blue-100/30 blur-[120px] rounded-full -z-10 animate-pulse"></div>
           
-          <div className="max-w-7xl mx-auto text-center space-y-8">
-            <h1 className="text-5xl md:text-7xl font-extrabold text-[#0A1128] tracking-tight">
-              Find Your <span className="text-blue-600">Perfect Place</span> <br />
-              to Live and Prosper.
-            </h1>
-            <p className="max-w-xl mx-auto text-lg text-slate-500 leading-relaxed font-medium">
-              We provide the most exclusive property listings in the region, 
-              designed for comfort, luxury, and Vastu compliance.
-            </p>
+          <div className="px-6 mb-12">
+            <div className="max-w-7xl mx-auto text-center space-y-6">
+              <h1 className="text-5xl md:text-7xl font-black text-[#0A1128] tracking-tight leading-[1.1]">
+                Find Your <span className="text-blue-600">Perfect Place</span> <br />
+                to Live and Prosper.
+              </h1>
+              <p className="max-w-xl mx-auto text-lg text-slate-500 leading-relaxed font-medium">
+                We provide the most exclusive property listings in the region, 
+                designed for comfort, luxury, and Vastu compliance.
+              </p>
+            </div>
+          </div>
 
-            {/* Media Carousel - Hero Video and Property Images */}
+          {/* Media Carousel - Now Full Width Edge-to-Edge */}
+          <div className="w-full">
             <MediaCarousel />
-            
-            {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <button className="px-8 py-4 bg-[#0A1128] text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-all shadow-2xl shadow-blue-900/20 active:scale-95">
-                Explore Properties
-              </button>
-              <button className="px-8 py-4 bg-white text-[#0A1128] border border-slate-200 rounded-xl font-bold text-lg hover:border-blue-600 hover:text-blue-600 transition-all shadow-sm active:scale-95">
-                Virtual Tour
-              </button>
-            </div> */}
           </div>
         </section>
 
         {/* Property Listings Section */}
         <PropertyListings />
+
+        {/* Construction Section */}
+        <ConstructionListings />
+
+        {/* Men Power Section */}
+        <MenPowerListings />
+
+        {/* About / Leadership Section */}
+        <AboutSection />
       </main>
     </div>
   )
@@ -50,12 +64,21 @@ function HomePage() {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/buy-rent/list" element={<PropertyList />} />
         <Route path="/buy-rent/:id" element={<PropertyDetail />} />
+        <Route path="/construction/list" element={<ConstructionList />} />
+        <Route path="/construction/:id" element={<ConstructionDetail />} />
+        <Route path="/men-power/list" element={<MenPowerList />} />
+        <Route path="/men-power/:id" element={<MenPowerDetail />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
 
 export default App
+
+// skfjsl

@@ -37,8 +37,8 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {owners.map((owner, index) => (
             <div key={index} className="group hover:-translate-y-2 transition-transform duration-500">
-              <div className="bg-white rounded-[2rem] overflow-hidden shadow-xl shadow-slate-200 border border-slate-100 h-full flex flex-col">
-                <div className="aspect-[4/5] overflow-hidden">
+              <div className="bg-white rounded-4xl overflow-hidden shadow-xl shadow-slate-200 border border-slate-100 h-full flex flex-col">
+                <div className="aspect-4/5 overflow-hidden">
                   <img 
                     src={owner.image} 
                     alt={owner.name} 
