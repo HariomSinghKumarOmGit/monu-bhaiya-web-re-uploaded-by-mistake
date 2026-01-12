@@ -27,7 +27,7 @@ function HomePage() {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-blue-100/30 blur-[120px] rounded-full -z-10 animate-pulse"></div>
           
           <div className="px-4 sm:px-6 mb-8 md:mb-12">
-            <div className="max-w-7xl mx-auto text-center space-y-4 md:space-y-6">
+            <div className="mt-20 max-w-7xl mx-auto text-center space-y-4 md:space-y-6">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-[#0A1128] tracking-tight leading-[1.1] px-2">
                 Find Your <span className="text-blue-600">Perfect Place</span> <br className="hidden sm:block" />
                 to Live and Prosper.
