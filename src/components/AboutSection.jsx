@@ -6,18 +6,18 @@ const AboutSection = () => {
       name: "Prabhat kr Jha",
       role: "Founder & Visionary",
       image: "https://i.im.ge/2026/01/03/B4oJTz.image.png",
-      description: "With over two decades of transformative leadership in real estate, Monu Bhaiya has redefined premium living. His unwavering integrity and foresight have built not just homes, but thriving communities that stand as testaments to trust and excellence."
+      description: "With over two decades of transformative leadership in real estate, Prabhat kr Jha has redefined premium living. His unwavering integrity and foresight have built not just homes, but thriving communities that stand as testaments to trust and excellence."
     },
     {
       name: "Rajesh Kumar",
       role: "Director of Architecture",
-      image: "https://andsimple.co/wp-content/uploads/2025/09/mukesh-ambani-family-offices-feature-3.png",
+      image: "https://as1.ftcdn.net/jpg/07/44/06/78/1000_F_744067814_PaeGDzGFcvFMsKaQHOMYGQytWMQe531C.jpg",
       description: "A master of spatial dynamics and sustainable design, Rajesh ensures that every Vastu Realty project is a harmonious blend of modern aesthetics and traditional Vastu principles, creating spaces that truly breathe."
     },
     {
       name: "Amit Singh",
       role: "Head of Operations",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+      image: "https://t4.ftcdn.net/jpg/04/66/20/63/360_F_466206336_eXv76Ec5EMQjNTCiQ0krLhqAC4o0JqIH.jpg",
       description: "Amit's rigorous attention to detail and commitment to seamless execution guarantee that our client experience is as premium as our properties. He is the backbone that turns our ambitious visions into tangible reality."
     }
   ]
