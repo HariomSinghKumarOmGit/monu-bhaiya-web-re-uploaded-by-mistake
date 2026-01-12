@@ -14,11 +14,6 @@ const MediaCarousel = () => {
     { type: 'image', src: 'https://i.im.ge/2026/01/12/GUqrxS.WhatsApp-Image-2026-01-12-at-20-54-50-1.jpeg', alt: 'Featured Project 4' },
   ]
 
-  // Handle video end - advance to next item
-  const handleVideoEnd = () => {
-    advanceToNext()
-  }
-
   // Advance to next item with transition
   const advanceToNext = () => {
     setIsTransitioning(true)
@@ -46,8 +41,8 @@ const MediaCarousel = () => {
   const currentItem = mediaItems[currentIndex]
 
   return (
-    <div className="w-full px-5 relative  z-0">
-      <div className="relative rounded-[40px] overflow-hidden shadow-2xl shadow-blue-900/20  bg-white aspect-21/9 md:aspect-28/9 lg:aspect-32/9">
+    <div className="w-full px-3 sm:px-4 md:px-5 relative z-0">
+      <div className="relative rounded-2xl sm:rounded-3xl md:rounded-[40px] overflow-hidden shadow-2xl shadow-blue-900/20 bg-white aspect-video sm:aspect-21/9 md:aspect-28/9 lg:aspect-32/9">
         {/* Transition Overlay */}
         <div 
           className={`absolute inset-0 bg-black z-30 transition-opacity duration-500 ${
@@ -78,11 +73,12 @@ const MediaCarousel = () => {
             src={currentItem.src}
             alt={currentItem.alt}
             className="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
           />
         )}
 
-        {/* Progress Indicators */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+        {/* Progress Indicators - Mobile Optimized */}
+        <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 z-20">
           {mediaItems.map((_, index) => (
             <button
               key={index}
@@ -93,19 +89,20 @@ const MediaCarousel = () => {
                   setIsTransitioning(false)
                 }, 300)
               }}
-              className={`h-1.5 rounded-full transition-all duration-300 ${
+              className={`h-1.5 sm:h-2 rounded-full transition-all duration-300 touch-manipulation active:scale-95 ${
                 index === currentIndex 
-                  ? 'bg-white w-12' 
-                  : 'bg-white/40 w-8 hover:bg-white/60'
+                  ? 'bg-white w-8 sm:w-10 md:w-12' 
+                  : 'bg-white/40 w-6 sm:w-7 md:w-8 hover:bg-white/60'
               }`}
+              aria-label={`Go to slide ${index + 1}`}
             />
           ))}
         </div>
 
-        {/* Optional: Property Badge for Images */}
+        {/* Optional: Property Badge for Images - Mobile Optimized */}
         {currentItem.type === 'image' && (
-          <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full z-20">
-            <span className="text-xs font-bold text-[#0A1128] uppercase tracking-wider">
+          <div className="absolute top-3 sm:top-4 md:top-6 left-3 sm:left-4 md:left-6 bg-white/90 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full z-20">
+            <span className="text-[10px] sm:text-xs font-bold text-[#0A1128] uppercase tracking-wider">
               Featured Property
             </span>
           </div>
@@ -113,7 +110,7 @@ const MediaCarousel = () => {
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-blue-400/5 blur-[100px] rounded-full" />
+      <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] sm:w-[500px] md:w-[600px] h-[300px] sm:h-[350px] md:h-[400px] bg-blue-400/5 blur-[80px] sm:blur-[100px] rounded-full" />
     </div>
   )
 }
