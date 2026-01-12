@@ -8,10 +8,10 @@ const MediaCarousel = () => {
   // Media playlist: video first, then images
   const mediaItems = [
     { type: 'video', src: 'xmGNrMZyhdE' },
-    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUqMrG.WhatsApp-Image-2026-01-03-at-11-57-35.jpeg', alt: 'Featured Project 1' },
-    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUqT8a.WhatsApp-Image-2026-01-12-at-20-54-51-2.jpeg', alt: 'Featured Project 2' },
-    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUqXMJ.WhatsApp-Image-2026-01-12-at-20-54-54.jpeg', alt: 'Featured Project 3' },
-    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUqrxS.WhatsApp-Image-2026-01-12-at-20-54-50-1.jpeg', alt: 'Featured Project 4' },
+    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUquJz.WhatsApp-Image-2026-01-12-at-20-54-36-2.jpeg', alt: 'Featured Project 1' },
+    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUq1PF.WhatsApp-Image-2026-01-12-at-20-54-42-1.jpeg', alt: 'Featured Project 2' },
+    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUq2fK.WhatsApp-Image-2026-01-12-at-20-54-56.jpeg', alt: 'Featured Project 3' },
+    { type: 'image', src: 'https://i.im.ge/2026/01/12/GUqq9X.WhatsApp-Image-2026-01-12-at-20-54-49-1.jpeg', alt: 'Featured Project 4' },
   ]
 
   // Handle video end - advance to next item
@@ -33,20 +33,33 @@ const MediaCarousel = () => {
     const currentItem = mediaItems[currentIndex]
     
     // For images, advance after 4s
-    // For the video, advance after 2 minutes and 5 seconds (125,000ms)
-    const delay = currentItem.type === 'image' ? 4000 : 125000;
-    
-    const timer = setTimeout(() => {
-      advanceToNext()
-    }, delay)
-    
-    return () => clearTimeout(timer)
+    if (currentItem.type === 'image') {
+      const timer = setTimeout(() => {
+        advanceToNext()
+      }, 4000)
+      return () => clearTimeout(timer)
+    }
+
+    // For YouTube videos, we listen for the 'ended' state through the API
+    const handleMessage = (event) => {
+      try {
+        const data = JSON.parse(event.data)
+        if (data.event === 'onStateChange' && data.info === 0) { // 0 is Ended
+          advanceToNext()
+        }
+      } catch (e) {
+        // Not a YouTube API message
+      }
+    }
+
+    window.addEventListener('message', handleMessage)
+    return () => window.removeEventListener('message', handleMessage)
   }, [currentIndex])
 
   const currentItem = mediaItems[currentIndex]
 
   return (
-    <div className="w-full px-5 relative  z-0">
+    <div className="w-full px-5 relative z-0">
       <div className="relative rounded-[40px] overflow-hidden shadow-2xl shadow-blue-900/20  bg-white aspect-21/9 md:aspect-28/9 lg:aspect-32/9">
         {/* Transition Overlay */}
         <div 

@@ -3,9 +3,9 @@ export const constructionProjects = [
   {
     id: 1,
     images: [
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdScm.WhatsApp-Image-2026-01-12-at-20-54-40.jpeg',
+      'https://i.im.ge/2026/01/12/GUdScm.WhatsApp-Image-2026-01-12-at-20-54-40.jpeg',
+      'https://i.im.ge/2026/01/12/GUdScm.WhatsApp-Image-2026-01-12-at-20-54-40.jpeg'
     ],
     title: 'Modern Urban Tower Complex',
     type: 'Multi-Floor Urban',
@@ -20,9 +20,9 @@ export const constructionProjects = [
   {
     id: 2,
     images: [
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdaC0.WhatsApp-Image-2026-01-12-at-20-54-46-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdaC0.WhatsApp-Image-2026-01-12-at-20-54-46-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdaC0.WhatsApp-Image-2026-01-12-at-20-54-46-1.jpeg'
     ],
     title: 'Rural Farmhouse Development',
     type: '1-Floor Rural',
@@ -37,9 +37,9 @@ export const constructionProjects = [
   {
     id: 3,
     images: [
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdI2c.WhatsApp-Image-2026-01-12-at-20-54-41-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdI2c.WhatsApp-Image-2026-01-12-at-20-54-41-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdI2c.WhatsApp-Image-2026-01-12-at-20-54-41-1.jpeg'
     ],
     title: 'Commercial Plaza Center',
     type: 'Multi-Floor Commercial',
@@ -54,9 +54,9 @@ export const constructionProjects = [
   {
     id: 4,
     images: [
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUds7W.WhatsApp-Image-2026-01-12-at-20-54-45.jpeg',
+      'https://i.im.ge/2026/01/12/GUds7W.WhatsApp-Image-2026-01-12-at-20-54-45.jpeg',
+      'https://i.im.ge/2026/01/12/GUds7W.WhatsApp-Image-2026-01-12-at-20-54-45.jpeg'
     ],
     title: 'Residential Villa Community',
     type: '1-Floor Residential',
@@ -71,9 +71,9 @@ export const constructionProjects = [
   {
     id: 5,
     images: [
-      'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUd2if.WhatsApp-Image-2026-01-12-at-20-54-33.jpeg',
+      'https://i.im.ge/2026/01/12/GUd2if.WhatsApp-Image-2026-01-12-at-20-54-33.jpeg',
+      'https://i.im.ge/2026/01/12/GUd2if.WhatsApp-Image-2026-01-12-at-20-54-33.jpeg'
     ],
     title: 'Industrial Warehouse Complex',
     type: '2-Floor Industrial',
@@ -88,9 +88,9 @@ export const constructionProjects = [
   {
     id: 6,
     images: [
-      'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdUKG.WhatsApp-Image-2026-01-12-at-20-54-38-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdUKG.WhatsApp-Image-2026-01-12-at-20-54-38-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdUKG.WhatsApp-Image-2026-01-12-at-20-54-38-1.jpeg'
     ],
     title: 'Heritage Building Restoration',
     type: 'Multi-Floor Heritage',
@@ -105,9 +105,9 @@ export const constructionProjects = [
   {
     id: 7,
     images: [
-      'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdilx.WhatsApp-Image-2026-01-12-at-20-54-44.jpeg',
+      'https://i.im.ge/2026/01/12/GUdilx.WhatsApp-Image-2026-01-12-at-20-54-44.jpeg',
+      'https://i.im.ge/2026/01/12/GUdilx.WhatsApp-Image-2026-01-12-at-20-54-44.jpeg'
     ],
     title: 'Modern Office Campus',
     type: 'Multi-Floor Office',
@@ -122,9 +122,9 @@ export const constructionProjects = [
   {
     id: 8,
     images: [
-      'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUd9ey.WhatsApp-Image-2026-01-12-at-20-54-43-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUd9ey.WhatsApp-Image-2026-01-12-at-20-54-43-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUd9ey.WhatsApp-Image-2026-01-12-at-20-54-43-1.jpeg'
     ],
     title: 'Riverside Resort Construction',
     type: '2-Floor Resort',
@@ -139,9 +139,9 @@ export const constructionProjects = [
   {
     id: 9,
     images: [
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdwCz.WhatsApp-Image-2026-01-12-at-20-54-33-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdwCz.WhatsApp-Image-2026-01-12-at-20-54-33-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdwCz.WhatsApp-Image-2026-01-12-at-20-54-33-1.jpeg'
     ],
     title: 'Educational Institution Building',
     type: 'Multi-Floor Educational',
@@ -156,9 +156,9 @@ export const constructionProjects = [
   {
     id: 10,
     images: [
-      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUd6v6.WhatsApp-Image-2026-01-12-at-20-54-36.jpeg',
+      'https://i.im.ge/2026/01/12/GUd6v6.WhatsApp-Image-2026-01-12-at-20-54-36.jpeg',
+      'https://i.im.ge/2026/01/12/GUd6v6.WhatsApp-Image-2026-01-12-at-20-54-36.jpeg'
     ],
     title: 'Healthcare Medical Center',
     type: 'Multi-Floor Healthcare',
@@ -173,9 +173,9 @@ export const constructionProjects = [
   {
     id: 11,
     images: [
-      'https://images.unsplash.com/photo-1590768001309-ef4b972a4fdb?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590768001309-ef4b972a4fdb?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1590768001309-ef4b972a4fdb?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdt6K.WhatsApp-Image-2026-01-12-at-20-54-51-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdt6K.WhatsApp-Image-2026-01-12-at-20-54-51-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdt6K.WhatsApp-Image-2026-01-12-at-20-54-51-1.jpeg'
     ],
     title: 'Luxury Apartment Complex',
     type: 'Multi-Floor Residential',
@@ -190,9 +190,9 @@ export const constructionProjects = [
   {
     id: 12,
     images: [
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdyV9.WhatsApp-Image-2026-01-12-at-20-54-36-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdyV9.WhatsApp-Image-2026-01-12-at-20-54-36-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdyV9.WhatsApp-Image-2026-01-12-at-20-54-36-1.jpeg'
     ],
     title: 'Eco-Friendly Green Building',
     type: 'Multi-Floor Green',

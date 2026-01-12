@@ -3,9 +3,9 @@ export const menPowerServices = [
   {
     id: 1,
     images: [
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdE08.WhatsApp-Image-2026-01-12-at-20-54-55.jpeg',
+      'https://i.im.ge/2026/01/12/GUdE08.WhatsApp-Image-2026-01-12-at-20-54-55.jpeg',
+      'https://i.im.ge/2026/01/12/GUdE08.WhatsApp-Image-2026-01-12-at-20-54-55.jpeg'
     ],
     title: 'Civil Engineers Team',
     type: 'Engineering',
@@ -19,9 +19,9 @@ export const menPowerServices = [
   {
     id: 2,
     images: [
-      'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdYMM.WhatsApp-Image-2026-01-12-at-20-54-49-2.jpeg',
+      'https://i.im.ge/2026/01/12/GUdYMM.WhatsApp-Image-2026-01-12-at-20-54-49-2.jpeg',
+      'https://i.im.ge/2026/01/12/GUdYMM.WhatsApp-Image-2026-01-12-at-20-54-49-2.jpeg'
     ],
     title: 'Skilled Construction Laborers',
     type: 'Labor',
@@ -35,9 +35,9 @@ export const menPowerServices = [
   {
     id: 3,
     images: [
-      'https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdbDY.WhatsApp-Image-2026-01-12-at-20-54-48.jpeg',
+      'https://i.im.ge/2026/01/12/GUdbDY.WhatsApp-Image-2026-01-12-at-20-54-48.jpeg',
+      'https://i.im.ge/2026/01/12/GUdbDY.WhatsApp-Image-2026-01-12-at-20-54-48.jpeg'
     ],
     title: 'Site Supervisors & Foremen',
     type: 'Supervision',
@@ -51,9 +51,9 @@ export const menPowerServices = [
   {
     id: 4,
     images: [
-      'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdgv4.WhatsApp-Image-2026-01-12-at-20-54-37-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdgv4.WhatsApp-Image-2026-01-12-at-20-54-37-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdgv4.WhatsApp-Image-2026-01-12-at-20-54-37-1.jpeg'
     ],
     title: 'Electrical Contractors',
     type: 'Electrical',
@@ -67,9 +67,9 @@ export const menPowerServices = [
   {
     id: 5,
     images: [
-      'https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdWNq.WhatsApp-Image-2026-01-12-at-20-54-51.jpeg',
+      'https://i.im.ge/2026/01/12/GUdWNq.WhatsApp-Image-2026-01-12-at-20-54-51.jpeg',
+      'https://i.im.ge/2026/01/12/GUdWNq.WhatsApp-Image-2026-01-12-at-20-54-51.jpeg'
     ],
     title: 'Plumbing Specialists',
     type: 'Plumbing',
@@ -83,9 +83,9 @@ export const menPowerServices = [
   {
     id: 6,
     images: [
-      'https://images.unsplash.com/photo-1606973965723-6c0ff0ed6eb1?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1606973965723-6c0ff0ed6eb1?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1606973965723-6c0ff0ed6eb1?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdZVp.WhatsApp-Image-2026-01-12-at-20-54-48-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdZVp.WhatsApp-Image-2026-01-12-at-20-54-48-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdZVp.WhatsApp-Image-2026-01-12-at-20-54-48-1.jpeg'
     ],
     title: 'Interior Designers & Decorators',
     type: 'Design',
@@ -99,9 +99,9 @@ export const menPowerServices = [
   {
     id: 7,
     images: [
-      'https://images.unsplash.com/photo-1626975396889-4d8e5a7a0e45?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1626975396889-4d8e5a7a0e45?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1626975396889-4d8e5a7a0e45?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdf51.WhatsApp-Image-2026-01-12-at-20-54-55-2.jpeg',
+      'https://i.im.ge/2026/01/12/GUdf51.WhatsApp-Image-2026-01-12-at-20-54-55-2.jpeg',
+      'https://i.im.ge/2026/01/12/GUdf51.WhatsApp-Image-2026-01-12-at-20-54-55-2.jpeg'
     ],
     title: 'Heavy Equipment Operators',
     type: 'Equipment',
@@ -115,9 +115,9 @@ export const menPowerServices = [
   {
     id: 8,
     images: [
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdkgf.WhatsApp-Image-2026-01-12-at-20-54-53-2.jpeg',
+      'https://i.im.ge/2026/01/12/GUdkgf.WhatsApp-Image-2026-01-12-at-20-54-53-2.jpeg',
+      'https://i.im.ge/2026/01/12/GUdkgf.WhatsApp-Image-2026-01-12-at-20-54-53-2.jpeg'
     ],
     title: 'Architects & Draftsmen',
     type: 'Architecture',
@@ -131,9 +131,9 @@ export const menPowerServices = [
   {
     id: 9,
     images: [
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdpIr.WhatsApp-Image-2026-01-12-at-20-54-43.jpeg',
+      'https://i.im.ge/2026/01/12/GUdpIr.WhatsApp-Image-2026-01-12-at-20-54-43.jpeg',
+      'https://i.im.ge/2026/01/12/GUdpIr.WhatsApp-Image-2026-01-12-at-20-54-43.jpeg'
     ],
     title: 'Safety Officers & Inspectors',
     type: 'Safety',
@@ -147,9 +147,9 @@ export const menPowerServices = [
   {
     id: 10,
     images: [
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdvEW.WhatsApp-Image-2026-01-12-at-20-54-50.jpeg',
+      'https://i.im.ge/2026/01/12/GUdvEW.WhatsApp-Image-2026-01-12-at-20-54-50.jpeg',
+      'https://i.im.ge/2026/01/12/GUdvEW.WhatsApp-Image-2026-01-12-at-20-54-50.jpeg'
     ],
     title: 'Project Managers & Coordinators',
     type: 'Management',
@@ -163,9 +163,9 @@ export const menPowerServices = [
   {
     id: 11,
     images: [
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUd4dT.WhatsApp-Image-2026-01-12-at-20-54-34.jpeg',
+      'https://i.im.ge/2026/01/12/GUd4dT.WhatsApp-Image-2026-01-12-at-20-54-34.jpeg',
+      'https://i.im.ge/2026/01/12/GUd4dT.WhatsApp-Image-2026-01-12-at-20-54-34.jpeg'
     ],
     title: 'Painting & Finishing Crew',
     type: 'Finishing',
@@ -179,9 +179,9 @@ export const menPowerServices = [
   {
     id: 12,
     images: [
-      'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80&sat=-100',
-      'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80&brightness=110'
+      'https://i.im.ge/2026/01/12/GUdGfL.WhatsApp-Image-2026-01-12-at-20-54-35-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdGfL.WhatsApp-Image-2026-01-12-at-20-54-35-1.jpeg',
+      'https://i.im.ge/2026/01/12/GUdGfL.WhatsApp-Image-2026-01-12-at-20-54-35-1.jpeg'
     ],
     title: 'Welding & Fabrication Team',
     type: 'Fabrication',
